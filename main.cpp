@@ -40,21 +40,6 @@ int main() {
     registrar.cancelCourse("CS102.001");
     cout << registrar << endl;
     
-    /*
-     // [OPTIONAL - do later if time]
-     cout << "ChangeStudentName FritzTheCat MightyMouse\n";
-     registrar.changeStudentName("FritzTheCat", "MightyMouse");
-     cout << registrar << endl;  // or registrar.printReport()
-     
-     cout << "DropStudentFromCourse MightyMouse CS101.001\n";
-     registrar.dropStudentFromCourse("MightyMouse", "CS101.001");
-     cout << registrar << endl;  // or registrar.printReport()
-     
-     cout << "RemoveStudent FritzTheCat\n";
-     registrar.removeStudent("FritzTheCat");
-     cout << registrar << endl;  // or registrar.printReport()
-     */
-    
     cout << "Purge for start of next semester\n";
     registrar.purge();
     cout << registrar << endl;
